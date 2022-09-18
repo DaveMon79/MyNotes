@@ -2,7 +2,7 @@
 const express = require('express');
 const path = require('path');
 const PORT = process.env.PORT || 3001;
-const router = require('./Develop/routes/notesroute');
+const router = require('./routes/notesroute');
 
 const app = express();
 
@@ -21,7 +21,7 @@ app.get("/", (req, res) => {
 })
 
 
-// Returns the notes pagge when request by user
+// Returns the notes page when request by user
 app.get('/notes', (req, res) => {
   res.sendFile(path.join(__dirname, '/public/notes.html'))
 
