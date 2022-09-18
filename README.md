@@ -54,8 +54,13 @@ This project is licensed under:
 
 # Links
 
+https://davemon79.github.io/MyNotes/
+
 https://github.com/DaveMon79/MyNotes
 
+https://git.heroku.com/secret-hollows-21794.git
+
+https://drive.google.com/file/d/1TDumNlfkNVgLPJ3zYV4pEa6IKCAljE8s/view - Video link 
 
   
 # Contributing
