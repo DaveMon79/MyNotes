@@ -27,7 +27,7 @@ router.get('/notes', (req, res) => {
 router.delete('/notes/:id', (req, res) => {
 
     let note_id = parseInt(req.params.id)
-   
+      
     for (let i = 0; i < notesArray.length; i++) {
 
         if (note_id === notesArray[i].id) {
